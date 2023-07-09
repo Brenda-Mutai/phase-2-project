@@ -1,6 +1,6 @@
 ANALYSIS OF KING COUNTY HOUSES
 
-![Alt text](20230709_103354-2.jpg)
+![Alt text](IMAGES/20230709_103354-2.jpg)
 
 OVERVIEW
 
@@ -19,7 +19,7 @@ DATA ANALYSIS AND MODELING
 We will analyze the data using various variables because the purpose of this study is to find ways in which King County houses might be restored or upgraded in order to maximize the resale values.
 The price will be the dependent variable while all the other features like bedrooms, bathrooms, sqft living, and floors will be the independent variables.
 
-![Alt text](image.png)
+![Alt text](IMAGES/image.png)
 
 Baseline Model
           OLS Regression Results                            
@@ -52,7 +52,8 @@ Baseline Model Interpretation and Visualization
 
  OLS regression results for the sqft living variable indicate that for each additional unit, the price is like to increase by $279.9321 in price.
 The p values are statically significant with the coefficient estimate and intercept.
-![Alt text](image-1.png)
+
+![Alt text](IMAGES/image-1.png)
 
 Multiple Linear Regression
 LS Regression Results                            
@@ -86,7 +87,9 @@ Notes:
 strong multicollinearity or other numerical problems.
 
 The model shows insights into the relationship between the number of bedrooms, bathrooms, and living square footage with the dependent variable price.
-![Alt text](image-3.png)
+
+![Alt text](IMAGES/image-3.png)
+
 
 RECOMMENDATIONS
 
