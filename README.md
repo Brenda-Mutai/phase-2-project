@@ -99,4 +99,4 @@ The linear Regression indicates the impact on the house sale price by the home o
 
 NEXT STEPS
 
-King County should consider looking at the most recent trends in the house market. Conducting a market reseaerch through media study on what is modern in order to gain different insights and maximize on the sale.
+King County should consider looking at the most recent trends in the house market. Conducting a market research through media study on what is modern in order to gain different insights and maximize on the sale.
