@@ -55,35 +55,9 @@ The p values are statically significant with the coefficient estimate and interc
 ![Alt text](image-1.png)
 
 Final Model results
-OLS Regression Results                            
-==============================================================================
-Dep. Variable:                  price   R-squared:                       0.530
-Model:                            OLS   Adj. R-squared:                  0.530
-Method:                 Least Squares   F-statistic:                     8095.
-Date:                Sat, 08 Jul 2023   Prob (F-statistic):               0.00
-Time:                        23:28:19   Log-Likelihood:            -2.9829e+05
-No. Observations:               21534   AIC:                         5.966e+05
-Df Residuals:                   21530   BIC:                         5.966e+05
-Df Model:                           3                                         
-Covariance Type:            nonrobust                                         
-====================================================================================
-                       coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------------
-const             5.096e+05   1909.209    266.894      0.000    5.06e+05    5.13e+05
-sqft_living        243.6022      3.000     81.194      0.000     237.722     249.483
-bathrooms         6190.2220   3406.363      1.817      0.069    -486.503    1.29e+04
-interaction_term    58.8343      1.414     41.600      0.000      56.062      61.606
-==============================================================================
-Omnibus:                    10334.375   Durbin-Watson:                   1.986
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):           384803.685
-Skew:                           1.647   Prob(JB):                         0.00
-Kurtosis:                      23.445   Cond. No.                     2.96e+03
-==============================================================================
-
-Notes:
-[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
-[2] The condition number is large, 2.96e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.
+third=sm.OLS(data_subset['price'],sm.add_constant(x_3))
+third_results=third.fit()
+print(third_results.summary())
 
 ![Alt text](image-3.png)
 
