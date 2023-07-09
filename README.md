@@ -54,10 +54,7 @@ Baseline Model Interpretation and Visualization
 The p values are statically significant with the coefficient estimate and intercept.
 ![Alt text](image-1.png)
 
-Final Model results
-third=sm.OLS(data_subset['price'],sm.add_constant(x_3))
-third_results=third.fit()
-print(third_results.summary())
+Multiple Linear Regression
 
 ![Alt text](image-3.png)
 
