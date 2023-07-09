@@ -103,4 +103,6 @@ NEXT STEPS
 King County should consider looking at the most recent trends in the house market. Conducting a market research through media study on what is modern in order to gain different insights and maximize on the sale.
 
 THANK YOU
-For additional information on this project you can reach out to me through email brenda.mutai@student.moringaschool.com
+
+For further information on this project, please contact me at brenda.mutai@student.moringaschool.com.
+
